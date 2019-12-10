@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/hueareyou/static/css/main.0dc81b65.chunk.css",
-    "main.js": "/hueareyou/static/js/main.70601893.chunk.js",
-    "main.js.map": "/hueareyou/static/js/main.70601893.chunk.js.map",
-    "runtime-main.js": "/hueareyou/static/js/runtime-main.63989584.js",
-    "runtime-main.js.map": "/hueareyou/static/js/runtime-main.63989584.js.map",
-    "static/js/2.0b0e90c9.chunk.js": "/hueareyou/static/js/2.0b0e90c9.chunk.js",
-    "static/js/2.0b0e90c9.chunk.js.map": "/hueareyou/static/js/2.0b0e90c9.chunk.js.map",
-    "index.html": "/hueareyou/index.html",
-    "precache-manifest.c3a8f2499d0f345c0e19bd1b47042595.js": "/hueareyou/precache-manifest.c3a8f2499d0f345c0e19bd1b47042595.js",
-    "service-worker.js": "/hueareyou/service-worker.js",
-    "static/css/main.0dc81b65.chunk.css.map": "/hueareyou/static/css/main.0dc81b65.chunk.css.map",
-    "static/media/App.scss": "/hueareyou/static/media/title-02.802ee20f.png",
-    "static/media/easelPainting.gif": "/hueareyou/static/media/easelPainting.d1152b3f.gif",
-    "static/media/makeupPaintPalette.png": "/hueareyou/static/media/makeupPaintPalette.249858b7.png"
+    "main.css": "/hueAreYou/static/css/main.d06f6c8f.chunk.css",
+    "main.js": "/hueAreYou/static/js/main.02a5316e.chunk.js",
+    "main.js.map": "/hueAreYou/static/js/main.02a5316e.chunk.js.map",
+    "runtime-main.js": "/hueAreYou/static/js/runtime-main.4b584668.js",
+    "runtime-main.js.map": "/hueAreYou/static/js/runtime-main.4b584668.js.map",
+    "static/js/2.4d89e3ec.chunk.js": "/hueAreYou/static/js/2.4d89e3ec.chunk.js",
+    "static/js/2.4d89e3ec.chunk.js.map": "/hueAreYou/static/js/2.4d89e3ec.chunk.js.map",
+    "index.html": "/hueAreYou/index.html",
+    "precache-manifest.a9f56b16712f1b281761d14e27932125.js": "/hueAreYou/precache-manifest.a9f56b16712f1b281761d14e27932125.js",
+    "service-worker.js": "/hueAreYou/service-worker.js",
+    "static/css/main.d06f6c8f.chunk.css.map": "/hueAreYou/static/css/main.d06f6c8f.chunk.css.map",
+    "static/media/App.scss": "/hueAreYou/static/media/title-02.802ee20f.png",
+    "static/media/easelPainting.gif": "/hueAreYou/static/media/easelPainting.d1152b3f.gif",
+    "static/media/makeupPaintPalette.png": "/hueAreYou/static/media/makeupPaintPalette.249858b7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.63989584.js",
-    "static/js/2.0b0e90c9.chunk.js",
-    "static/css/main.0dc81b65.chunk.css",
-    "static/js/main.70601893.chunk.js"
+    "static/js/runtime-main.4b584668.js",
+    "static/js/2.4d89e3ec.chunk.js",
+    "static/css/main.d06f6c8f.chunk.css",
+    "static/js/main.02a5316e.chunk.js"
   ]
 }
