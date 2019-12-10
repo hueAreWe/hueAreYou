@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hueAreYou/precache-manifest.4be84ec25662553b072ead5e28d837c7.js"
+  "/hueAreYou/precache-manifest.79b6a858d723de838af86a541e85b1ca.js"
 );
 
 self.addEventListener('message', (event) => {
