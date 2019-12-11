@@ -53,12 +53,12 @@ class Gallery extends Component {
 
                         
                 {
-                this.state.paintings.reverse().map((art) => {
+                this.state.paintings.reverse().map((art, index) => {
                     return (
 
                         <Parallax className="parallax" >
 
-                        <li className="artworkGallery">
+                        <li className="artworkGallery" tabIndex={index}>
                                 <Tilt tiltMaxAngleX="5" tiltMaxAngleY="5">
                                 <div className="frame">
                                     <div className="galleryImage">
