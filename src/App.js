@@ -46,6 +46,7 @@ class App extends Component {
       url: `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${b}`,
       dataResponse: 'json'
     })
+
       .then((makeUpData) => {
 
         this.setState({ sectionTwoPreload: false})
@@ -155,7 +156,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="/hueareyou">
+      <Router basename="/hueAreYou">
         
       <div className="App">
 
