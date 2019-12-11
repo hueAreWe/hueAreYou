@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hueAreYou/static/css/main.5aa3f049.chunk.css",
-    "main.js": "/hueAreYou/static/js/main.bdba31eb.chunk.js",
-    "main.js.map": "/hueAreYou/static/js/main.bdba31eb.chunk.js.map",
+    "main.css": "/hueAreYou/static/css/main.f3e52237.chunk.css",
+    "main.js": "/hueAreYou/static/js/main.2a6635d3.chunk.js",
+    "main.js.map": "/hueAreYou/static/js/main.2a6635d3.chunk.js.map",
     "runtime-main.js": "/hueAreYou/static/js/runtime-main.4b584668.js",
     "runtime-main.js.map": "/hueAreYou/static/js/runtime-main.4b584668.js.map",
     "static/js/2.6c3dfcaf.chunk.js": "/hueAreYou/static/js/2.6c3dfcaf.chunk.js",
     "static/js/2.6c3dfcaf.chunk.js.map": "/hueAreYou/static/js/2.6c3dfcaf.chunk.js.map",
     "index.html": "/hueAreYou/index.html",
-    "precache-manifest.2c413c830cd0e8a5e4f0ee03c250fcbf.js": "/hueAreYou/precache-manifest.2c413c830cd0e8a5e4f0ee03c250fcbf.js",
+    "precache-manifest.7614ee294927ee5d098ef88bfdc0cac4.js": "/hueAreYou/precache-manifest.7614ee294927ee5d098ef88bfdc0cac4.js",
     "service-worker.js": "/hueAreYou/service-worker.js",
-    "static/css/main.5aa3f049.chunk.css.map": "/hueAreYou/static/css/main.5aa3f049.chunk.css.map",
+    "static/css/main.f3e52237.chunk.css.map": "/hueAreYou/static/css/main.f3e52237.chunk.css.map",
     "static/media/App.scss": "/hueAreYou/static/media/title-02.802ee20f.png",
     "static/media/easelPainting.gif": "/hueAreYou/static/media/easelPainting.d1152b3f.gif",
     "static/media/makeupPaintPalette.png": "/hueAreYou/static/media/makeupPaintPalette.249858b7.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b584668.js",
     "static/js/2.6c3dfcaf.chunk.js",
-    "static/css/main.5aa3f049.chunk.css",
-    "static/js/main.bdba31eb.chunk.js"
+    "static/css/main.f3e52237.chunk.css",
+    "static/js/main.2a6635d3.chunk.js"
   ]
 }
