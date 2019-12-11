@@ -14,7 +14,7 @@ class App extends Component {
       userInput: "",
       showSectionOne: true,
       showSectionTwo: false,
-      showSectionThree: true,
+      showSectionThree: false,
       chosenBrand: "",
       sectionTwoPreload: true,
       finalPainting: {},
@@ -24,7 +24,7 @@ class App extends Component {
       brandObject: {},
       brandArray: [],
       counter: 0,
-      productImage: '',
+      productImage: "",
       sectionTwoPageLoad: false,
     }
   }
@@ -92,6 +92,7 @@ class App extends Component {
           this.setState({
             topProducts: arrayOfProducts.join("and "),
             brandArray: brandInfo,
+            showSectionThree: true
             
           })
 
@@ -140,6 +141,15 @@ class App extends Component {
     this.makeUpCall(b);
   }
 
+  resetBrand = () => {
+    this.setState({
+      chosenBrand: "",
+      showSectionTwo: false,
+      showSectionThree: false,
+      chosenColor: false
+    })
+  }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -176,7 +186,7 @@ class App extends Component {
                           ?
                           ///////////////////////////////////////////////////////////////////////////////////////
                           // (<SectionThree paintingColorProp={this.state.paintingColor} />)
-                          (<SectionThree paintingColorProp={this.state.chosenColor} />)
+                          (<SectionThree paintingColorProp={this.state.chosenColor} resetBrandProp={this.resetBrand}/>)
                           :
                           (null)
                       )
