@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4471adf699003c9d4fef99817828a7db",
+    "revision": "9cdf988166e8f6b35b0167434d3af580",
     "url": "/hueAreYou/index.html"
   },
   {
-    "revision": "6ec89881351ffa3e05e5",
-    "url": "/hueAreYou/static/css/main.8c5806a9.chunk.css"
+    "revision": "029604b36fc6cac97e67",
+    "url": "/hueAreYou/static/css/main.5aa3f049.chunk.css"
   },
   {
-    "revision": "440b66940ba5dde0d9bc",
-    "url": "/hueAreYou/static/js/2.4d89e3ec.chunk.js"
+    "revision": "87e6c683f8d22f028f7b",
+    "url": "/hueAreYou/static/js/2.6c3dfcaf.chunk.js"
   },
   {
-    "revision": "6ec89881351ffa3e05e5",
-    "url": "/hueAreYou/static/js/main.4f33679b.chunk.js"
+    "revision": "029604b36fc6cac97e67",
+    "url": "/hueAreYou/static/js/main.9ec64cd9.chunk.js"
   },
   {
     "revision": "7d9905456f37dc154f9f",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hueAreYou/static/media/easelPainting.d1152b3f.gif"
   },
   {
+    "revision": "250f9e0d2de4c746f7eee3674dc4f41e",
+    "url": "/hueAreYou/static/media/galleryBack.250f9e0d.png"
+  },
+  {
     "revision": "249858b77d6396da12055bc8aceca1c7",
     "url": "/hueAreYou/static/media/makeupPaintPalette.249858b7.png"
   },
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "341ecc6a6f2f8e1f6c804624601aae82",
     "url": "/hueAreYou/static/media/sectionOneBack.341ecc6a.jpg"
+  },
+  {
+    "revision": "36820610c6f2499e02992130913840bc",
+    "url": "/hueAreYou/static/media/sectionTwoPreload.36820610.gif"
   },
   {
     "revision": "802ee20fb36d6b6293481c8487724ccd",
