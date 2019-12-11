@@ -43,7 +43,7 @@ class SectionThree extends Component {
         const nearestColor = require('nearest-color').from(this.state.normalizedColors);
 
         let matchedColor = nearestColor(this.props.paintingColorProp);
-        console.log(matchedColor)
+        
 
         axios({
             method: 'GET',
@@ -87,7 +87,7 @@ class SectionThree extends Component {
     }
 
     storeColor = (e) => {
-        console.log(e.target.value)
+        
         this.setState({
             chosenColor: e.target.value,
         })
@@ -99,7 +99,7 @@ class SectionThree extends Component {
 
         const dbRef = firebase.database().ref();
 
-        console.log(this.state.paintingArray[0])
+        
 
         localStorage.setItem('paintingTitle', this.state.paintingArray[0].title)
         

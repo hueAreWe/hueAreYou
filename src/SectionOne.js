@@ -5,7 +5,6 @@ class SectionOne extends Component {
         super()
         this.state = {
             searchValue: "",
-            // selectedBrand: "",
             filterBrand: [],
             allBrands: [
                 "almay",
@@ -57,9 +56,7 @@ class SectionOne extends Component {
 
     handleChange = e => {
         this.setState({
-            //reset error message
             errorMessage: "",
-            // recording the user input
             searchValue: e.target.value.toLowerCase(),
             
         })
@@ -86,9 +83,7 @@ class SectionOne extends Component {
             this.state.allBrands.forEach((i)=>{
                 if (i === this.state.searchValue) {
                     this.setState({
-                        // selectedBrand: i, ======> we don't need to set state in section one, we just need to pass it to the app.js
                         errorMessage: "",
-                        // chosenBrandHandler
                     })
                     this.props.chosenBrandHandler(this.state.searchValue)
                 }
