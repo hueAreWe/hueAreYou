@@ -130,8 +130,6 @@ class App extends Component {
     }
   }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// the chosenbrand handler
   chosenBrandHandler = (b) => {
     this.setState({ 
       chosenBrand: b,
@@ -150,8 +148,6 @@ class App extends Component {
       chosenColor: false
     })
   }
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
   render() {
@@ -185,8 +181,6 @@ class App extends Component {
                       (
                         this.state.showSectionThree === true
                           ?
-                          ///////////////////////////////////////////////////////////////////////////////////////
-                          // (<SectionThree paintingColorProp={this.state.paintingColor} />)
                           (<SectionThree paintingColorProp={this.state.chosenColor} resetBrandProp={this.resetBrand}/>)
                           :
                           (null)

@@ -18,7 +18,6 @@ class SectionTwo extends Component {
     }
 
     isItInitialLoad = () => {
-        console.log('its loading')
         this.setState({
             initialLoad: this.props.sectionTwoPageLoad,
         })
@@ -69,14 +68,12 @@ class SectionTwo extends Component {
 
                                 
                                     <div className="productInfo sectionTwoWrapper">
-                                        {/* arrow */}
                                         <div value={productName} className="arrowButton arrowLeft"
                                         onClick={this.props.counterClickSub}>
                                             <img src={require('./image/arrow.png')} alt="" />
                                         </div>
 
                                         <div className="pallette">
-                                            {/* top half of pallette */}
                                             <div className="makeUpInfo">
                                                 <div className="makeUpDetails">
                                                     <h3>{productName}</h3>   
@@ -86,7 +83,6 @@ class SectionTwo extends Component {
                                                 </div>
                                             </div>
 
-                                            {/* bottom half of pallette */}
                                             <div className="makeUpColors">
                                                 <button className="colorButton" style={{ background: product[0].hex }} onClick={this.props.storeColor} value={product[0].hex}></button>
                                                 <button className="colorButton" style={{ background: product[1].hex }} onClick={this.props.storeColor} value={product[1].hex}></button>
@@ -98,7 +94,6 @@ class SectionTwo extends Component {
                                             </div>
                                         </div>
 
-                                        {/* arrow */}
                                         <div value={productName} className="arrowButton arrowRight" onClick={this.props.counterClickAdd}>
                                             <img src={require('./image/arrow.png')} alt="" />
                                         </div>
@@ -111,13 +106,11 @@ class SectionTwo extends Component {
                                 
 
                                     <div className="productInfo sectionTwoWrapper">
-                                        {/* arrow */}
                                         <div value={productName} className="arrowButton arrowLeft" onClick={this.props.counterClickSub}>
                                             <img src={require('./image/arrow.png')} alt="" />
                                         </div>
 
                                         <div className="pallette">
-                                            {/* top half pallette */}
                                             <div className="makeUpInfo">
                                                 <div className="makeUpDetails">
                                                     <h3>{productName}</h3>
@@ -127,7 +120,6 @@ class SectionTwo extends Component {
                                                     <img src={productImgLink} alt={`${this.props.chosenBrandProp}'s ${productName}`} />
                                                 </div>
                                             </div>
-                                            {/* bottom half of pallette */}
                                             <div className="makeUpColors">
                                                 <button className="colorButton" style={{ background: product[0].hex }} onClick={this.props.storeColor} value={product[0].hex}></button>
                                                 <button className="colorButton" style={{ background: product[1].hex }} onClick={this.props.storeColor} value={product[1].hex}></button>

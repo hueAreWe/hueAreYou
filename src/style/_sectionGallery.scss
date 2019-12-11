@@ -46,7 +46,6 @@
     }
 }
 
-
 .artworkGallery {
     display: flex;
     flex-direction: column;
@@ -79,11 +78,10 @@
         box-sizing:border-box;
         display:inline-block;
         margin-top:10vh;
-        // height:80vh;
         padding:3vmin;
         position:relative;
         text-align:center;
-                // max-width: 33vw;
+
 
         &:before {
             border-radius:2px;
@@ -166,6 +164,13 @@
     }
 
     .artworkGallery {
+
+    .galleryImage {
+
+        img {
+        max-width: 300px;
+        }    
+    }
         &:hover >.infoGallery {
             h2 {
                 font-size: 1.5rem;
@@ -173,6 +178,18 @@
             h3 {
                 font-size: 1rem;
             }
+        }
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+.artworkGallery {
+    .galleryImage {
+            img {
+            max-width: 250px;
+            }    
         }
     }
 }
