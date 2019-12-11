@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hueareyou/static/css/main.2ed77434.chunk.css",
-    "main.js": "/hueareyou/static/js/main.4f6438af.chunk.js",
-    "main.js.map": "/hueareyou/static/js/main.4f6438af.chunk.js.map",
+    "main.js": "/hueareyou/static/js/main.8c4163fb.chunk.js",
+    "main.js.map": "/hueareyou/static/js/main.8c4163fb.chunk.js.map",
     "runtime-main.js": "/hueareyou/static/js/runtime-main.63989584.js",
     "runtime-main.js.map": "/hueareyou/static/js/runtime-main.63989584.js.map",
     "static/js/2.437a1eb0.chunk.js": "/hueareyou/static/js/2.437a1eb0.chunk.js",
     "static/js/2.437a1eb0.chunk.js.map": "/hueareyou/static/js/2.437a1eb0.chunk.js.map",
     "index.html": "/hueareyou/index.html",
-    "precache-manifest.4cf2880f18697c270dcfa1800b603305.js": "/hueareyou/precache-manifest.4cf2880f18697c270dcfa1800b603305.js",
+    "precache-manifest.ea52b2c12c9ab46996740733626d6f9b.js": "/hueareyou/precache-manifest.ea52b2c12c9ab46996740733626d6f9b.js",
     "service-worker.js": "/hueareyou/service-worker.js",
     "static/css/main.2ed77434.chunk.css.map": "/hueareyou/static/css/main.2ed77434.chunk.css.map",
     "static/media/App.scss": "/hueareyou/static/media/title-02.802ee20f.png",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.63989584.js",
     "static/js/2.437a1eb0.chunk.js",
     "static/css/main.2ed77434.chunk.css",
-    "static/js/main.4f6438af.chunk.js"
+    "static/js/main.8c4163fb.chunk.js"
   ]
 }
