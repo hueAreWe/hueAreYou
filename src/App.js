@@ -6,7 +6,6 @@ import SectionTwo from './SectionTwo';
 import SectionThree from './SectionThree';
 import Gallery from './Gallery';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-import Qs from 'qs';
 
 class App extends Component {
   constructor() {
@@ -44,21 +43,8 @@ class App extends Component {
   makeUpCall = (b) => {
     axios({
       method: 'GET',
-      url: 'http://proxy.hackeryou.com',
-      dataResponse: 'json',
-      paramsSerializer: function (params) {
-        return Qs.stringify(params, { arrayFormat: 'brackets' })
-      },
-      params: {
-        reqUrl: `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${b}`,
-        params: {
-          queryParam: 'value'
-        },
-        proxyHeaders: {
-          'header_params': 'value'
-        },
-        xmlToJSON: false
-      }
+      url: `https://makeup-api.herokuapp.com/api/v1/products.json?brand=${b}`,
+      dataResponse: 'json'
     })
 
       .then((makeUpData) => {

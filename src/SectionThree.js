@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import makeupPaintPalette from './image/makeupPaintPalette.png';
 import easelPainting from './image/easelPainting.gif';
-import Qs from 'qs';
 
 class SectionThree extends Component {
     constructor(){
@@ -47,28 +46,16 @@ class SectionThree extends Component {
 
         axios({
             method: 'GET',
-            url: 'http://proxy.hackeryou.com',
+            url: `https://www.rijksmuseum.nl/api/en/collection?`,
             dataResponse: 'json',
-            paramsSerializer: function (params) {
-                return Qs.stringify(params, { arrayFormat: 'brackets' })
-            },
             params: {
-                method: 'GET',
-                reqUrl: `https://www.rijksmuseum.nl/api/en/collection?`,
-                dataResponse: 'json',
-                params: {
-                    queryParam: 'value',
-                    key: 'e2KwL8qU',
-                    "f.normalized32Colors.hex": matchedColor.value,
-                    type: 'painting',
-                    imgonly: true,
-                    // s: 'relevance',
-                    ps: 100
-                },
-                proxyHeaders: {
-                    'header_params': 'value'
-                },
-                xmlToJSON: false
+                key: 'e2KwL8qU',
+                "f.normalized32Colors.hex": matchedColor.value,
+                type: 'painting',
+                imgonly: true,
+                // s: 'relevance',
+                ps: 100
+
             }
         })
             .then((data) => {
