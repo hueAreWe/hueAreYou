@@ -107,7 +107,7 @@ render() {
         <div className="sectionOne">
             <div className="title">
                 <div className="titleText">
-                <h1>Hue <span className="h1">Are You</span></h1>
+                <h1>Hue <span className="h1">Are You?</span></h1>
                 </div>
             </div>
             <form action="">

@@ -42,10 +42,6 @@ class SectionTwo extends Component {
                     null
 
                 )}
-
-
-
-
                 {/* <h1>You chose the brand: {this.props.chosenBrandProp}</h1> */}
 
                 {
