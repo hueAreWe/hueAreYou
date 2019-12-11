@@ -110,3 +110,12 @@ html {
 }
 
 
+.preloader {
+    width: 100%;
+    height: 100vh;
+    @include flexer;
+    background: white;
+    img {
+        width:30%
+    }
+}

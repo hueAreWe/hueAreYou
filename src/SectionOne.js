@@ -114,7 +114,7 @@ render() {
                 <label htmlFor="searchBar" className="visuallyHidden">Enter your favourite brand</label>
                 <input 
                     type="search" 
-                    placeholder="ex: L'Oreal" 
+                    placeholder="Choose a Brand to Create Art" 
                     id="searchBar" 
                     onChange={this.handleChange}
                     value={this.state.searchValue}
