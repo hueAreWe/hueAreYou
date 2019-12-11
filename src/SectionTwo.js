@@ -46,7 +46,7 @@ class SectionTwo extends Component {
 
 
 
-                <h1>You chose the brand: {this.props.chosenBrandProp}</h1>
+                {/* <h1>You chose the brand: {this.props.chosenBrandProp}</h1> */}
 
                 {
                     this.props.brandArray.map((product, index) => {

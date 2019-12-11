@@ -29,15 +29,19 @@ html{
 }
 
 .sectionTwo h2{
+    font-size: 3.8rem;
+    line-height: 0.5;
     font-family: 'muli', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
     span{
-        text-transform: capitalize;
+        text-decoration: underline;
+        color: $lightgreen;
     }
     margin: 40px 0;
 }
 .sectionTwo h3{
     font-size: 2.5rem;
-    // padding: 0 30px;
 }
 
 .pallette {
@@ -59,7 +63,7 @@ html{
     left: 40px;
 
     @media (max-width: 500px) {
-       left: 10px;
+    left: 10px;
     } 
 }
 
@@ -99,10 +103,7 @@ html{
         border-radius: 25px 25px 0 0;
         border: 10px solid $darkgreen;
         width: auto;
-    } 
-    
-    
-    
+    }
 }
 
 .makeUpColors{
@@ -170,7 +171,6 @@ margin: 0 auto;
             width: 310px;
         }
     }
-
     &:hover{
     filter: brightness(130%);
 }
