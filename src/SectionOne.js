@@ -7,7 +7,6 @@ class SectionOne extends Component {
             searchValue: "",
             // selectedBrand: "",
             filterBrand: [],
-
             allBrands: [
                 "almay",
                 "anna sui",
@@ -55,11 +54,6 @@ class SectionOne extends Component {
             filterBrand: [...this.state.allBrands]
         })
     }
-    //pesudo steps
-    // create a search input
-    // get value from an search input, return an array of search results
-    // once a brand being picked, save it in the state
-    // Go to section two
 
     handleChange = e => {
         this.setState({

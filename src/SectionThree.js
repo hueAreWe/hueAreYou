@@ -26,7 +26,8 @@ class SectionThree extends Component {
                 lightPink: "#F6ECF3",
                 lightYellow: "#FBF6E1",
                 darkGray: "#737C84",
-            }
+            },
+            
         }
     }
 
@@ -92,6 +93,8 @@ class SectionThree extends Component {
         })
     } 
 
+    
+
     saveGallery = (e) => {
 
         const dbRef = firebase.database().ref();
@@ -120,8 +123,6 @@ class SectionThree extends Component {
 
                 {(
                     this.props.paintingColorProp !== false ? 
-               
-
                 <section className="makeArt">
                     <div className="generateContainer" >
                     <div>
@@ -150,7 +151,6 @@ class SectionThree extends Component {
                                     ref={(el) => { this.toTheBottom = el; }}>
                                 </div>
                             </div>
-                            
                             :
                             (null)
                     )
@@ -184,20 +184,19 @@ class SectionThree extends Component {
                                             </button>
                                             )}
                                             
+                                        <button onClick={this.props.resetBrandProp}>Start from scratch!</button>
                                         </div>
                                 </div>
- 
                             </div>
                             :
                             (null)
                     )
-
                 }
                 
                 <div style={{ float: "left", clear: "both" }}
                     ref={(el) => { this.toTheBottom = el; }}>
                 </div>
-
+                
             </div>
         )
     }

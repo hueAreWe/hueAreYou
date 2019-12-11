@@ -138,8 +138,6 @@ class SectionTwo extends Component {
                                                 <button className="colorButton" style={{ background: product[6].hex }} onClick={this.props.storeColor} value={product[6].hex}></button>
                                             </div>
                                         </div>
-                                        
-                                        {/* arrow */}
                                         <div value={productName} className="arrowButton arrowRight" onClick={this.props.counterClickAdd}
                                         >
                                             <img src={require('./image/arrow.png')} alt="" />
