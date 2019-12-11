@@ -56,7 +56,7 @@ class SectionTwo extends Component {
                                 
                             
                                 <div>
-                                    <h2>
+                                    <h2 className="number">
                                         {
                                             index + 1
                                         } / {this.props.brandArray.length}

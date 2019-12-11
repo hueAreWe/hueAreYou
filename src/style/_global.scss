@@ -37,6 +37,13 @@ html {
   text-decoration: none;
   font-size:3rem;
   z-index: 10;
+
+  @media (max-width: 650px) {
+        top: 10px;
+        left: 20px;
+        bottom: auto;
+        right: auto;
+    }
 }
 
 .galleryLink:hover,
